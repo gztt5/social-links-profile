@@ -15,16 +15,17 @@ body {
 }
 
 #location {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 h1 {
 	font-weight: 700;
+	margin-bottom: 5px;
 
 }
 
 h2 {
-	font-size: 15px;
+	font-size: 14px;
 	color: hsl(75, 94%, 57%);
 }
 
@@ -52,6 +53,7 @@ img {
 	align-items: center;
 	padding: 35px;
 	border-radius: 12px;
+	user-select: none;
 }
 
 .link-container {
@@ -83,4 +85,5 @@ a {
 	background-color: hsl(75, 94%, 57%);
 	color: hsl(0, 0%, 12%);
 	transition: all 0.2s;
+	cursor: pointer;
 }
